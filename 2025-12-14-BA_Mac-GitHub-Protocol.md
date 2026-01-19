@@ -1,3 +1,10 @@
+---
+layout: post
+title: Mac GitHub Protocol
+date: '2025-12-14'
+categories: Protocols
+tags: Mac,GitHub,Network
+---
 #Protocol: Connecting a Mac Computer to GitHub via Terminal (SSH Method)
 ###Author: Boaz Abramson
 ###Laboratory: Mass Lab
@@ -43,3 +50,4 @@
 ####4 Push to GitHub: git branch -M main then git push -u origin main
 ##10. Verify Successful Upload
 ####1 Visit your repository page on GitHub (e.g., https://github.com/Scuba-Bo/BAbramson_Lab_Notebook-Mass_Lab) to confirm files appear.
+
