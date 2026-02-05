@@ -6,9 +6,9 @@ categories: Protocols
 tags: Training,Imaging,Oculina, Chlorophyll
 ---
 
-### Author: Boaz Abramson
-### Laboratory: Mass Lab
-### Date: January 4 2026
+##Purpose:
+####The goal of this training was to provide me with the tools to build a pipeline to collect chlorophyll from image data. On this dive, we took images of Oculina off the coast of Sdot Yam. Once the images were collected, we took physical samples as well. The goal is to build an image processing pipeline that has the same results as lab chlorophyll processing techniques.
+
 
 ## 1. Camera & Strobe Settings
 **Instructions from Hagai Nativ**
@@ -98,3 +98,8 @@ https://drive.google.com/drive/folders/1ISvIgQ05h-ayrNQD3o1Le3rE7a913BmA?usp=sha
     * Consolidate the individual bags into a larger labeled box or bag.
     * **Label the outer container with:** Your Name, Date, and Sample Information.
     * **Action Item:** Inform the Lab Manager of the specific location of your samples in the freezer. 
+
+    
+### Author: Boaz Abramson
+### Laboratory: Mass Lab
+### Last Edited: February 5th 2026
