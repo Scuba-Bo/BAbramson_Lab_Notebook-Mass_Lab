@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Oculina Imaging & Sampling Training Log
-date: '2026-01-04'
+title: Training Log: Oculina Imaging & Sampling
+date: '2026-02-05'
 categories: Protocols
 tags: Training,Imaging,Oculina, Chlorophyll
 ---
-
-# Training Log: Oculina Imaging & Sampling (Jan 4th)
 
 ### Author: Boaz Abramson
 ### Laboratory: Mass Lab
