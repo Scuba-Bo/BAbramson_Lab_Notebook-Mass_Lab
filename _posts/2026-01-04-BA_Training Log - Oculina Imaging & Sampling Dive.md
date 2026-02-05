@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Training Log: Oculina Imaging & Sampling
-date: '2026-02-05'
+title: "Training Log: Oculina Imaging & Sampling Protocols"
+date: '2026-01-04'
 categories: Protocols
 tags: Training,Imaging,Oculina, Chlorophyll
 ---
