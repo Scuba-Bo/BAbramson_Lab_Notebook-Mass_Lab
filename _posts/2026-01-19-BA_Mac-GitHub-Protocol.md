@@ -67,7 +67,7 @@ This protocol provides a step-by-step guide for setting up and using Git on a Ma
 1. If folder is empty, create a README file: `echo '# BAbramson Lab Notebook' > README.md`
 2. Stage files: `git add .`
 3. Commit files: `git commit -m 'Initial commit - add project files'`
-4. Push to GitHub: `git branch -M main` then `git push -u origin main`
+4. Push to GitHub: `git branch -M master` then `git push -u origin master`
 
 ## 10. Verify Successful Upload
 1. Visit your repository page on GitHub (e.g., https://github.com/Scuba-Bo/BAbramson_Lab_Notebook-Mass_Lab) to confirm files appear.
