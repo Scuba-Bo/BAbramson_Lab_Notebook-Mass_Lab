@@ -6,9 +6,9 @@ categories: Protocols
 tags: Training,Imaging,Oculina, Chlorophyll
 ---
 
-##Purpose:
-The goal of this training was to provide me with the tools to build a pipeline to collect chlorophyll from image data. On this dive, we took images of Oculina off the coast of Sdot Yam. Once the images were collected, we took physical samples as well. The goal is to build an image processing pipeline that has the same results as lab chlorophyll processing techniques.
 
+###Purpose:
+The goal of this training was to provide me with the tools to build a pipeline to collect chlorophyll from image data. On this dive, we took images of Oculina off the coast of Sdot Yam. Once the images were collected, we also collected physical samples. The goal is to build an image processing pipeline that has the same results as lab chlorophyll processing techniques.
 
 ## 1. Camera & Strobe Settings
 **Instructions from Hagai Nativ**
