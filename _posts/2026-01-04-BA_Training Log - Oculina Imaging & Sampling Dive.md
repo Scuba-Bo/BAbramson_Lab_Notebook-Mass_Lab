@@ -5,7 +5,6 @@ date: '2026-01-04'
 categories: Protocols
 tags: Training,Imaging,Oculina, Chlorophyll
 ---
-# Oculina Imaging & Sampling (Jan 4th)
 
 ### Author: Boaz Abramson
 ### Laboratory: Mass Lab
