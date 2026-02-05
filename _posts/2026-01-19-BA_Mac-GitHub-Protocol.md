@@ -1,20 +1,18 @@
 
 ---
 layout: post
-title: Mac GitHub Protocol
-date: '2026-01-19'
+title: "Protocol: Connecting a Mac Computer to GitHub via Terminal (SSH Method)"
+date: '2025-12-14'
 categories: Protocols
 tags: Mac,GitHub,Network
 ---
 
-# Protocol: Connecting a Mac Computer to GitHub via Terminal (SSH Method)
-
 ### Author: Boaz Abramson
 ### Laboratory: Mass Lab
-### Date: January 19 2026
+### Date: February 2nd 2026
 
 ## Purpose:
-This protocol provides a step-by-step guide for setting up and using Git on a Mac to connect to GitHub using SSH. It is designed for lab members who need to track and share their research code, analysis, and documentation on GitHub without relying on the GitHub Desktop application.
+This protocol provides a step-by-step guide for setting up and using Git on a Mac to connect to GitHub using SSH. It is designed for lab members who need to track and share their research code, analysis, and documentation on GitHub without relying on the GitHub Desktop application. With this method, you can communicate with Github via Mac's terminal.
 
 ## 1. Prerequisites
 1. You have a GitHub account.
