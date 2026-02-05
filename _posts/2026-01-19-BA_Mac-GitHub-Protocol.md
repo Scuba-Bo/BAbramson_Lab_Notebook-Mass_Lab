@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Protocol: Connecting a Mac Computer to GitHub via Terminal (SSH Method)"
