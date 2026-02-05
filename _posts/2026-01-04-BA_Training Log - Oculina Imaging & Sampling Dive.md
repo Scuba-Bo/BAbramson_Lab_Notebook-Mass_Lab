@@ -6,7 +6,7 @@ categories: Protocols
 tags: Training,Imaging,Oculina, Chlorophyll
 ---
 
-# Training Log: Oculina Imaging & Sampling
+# Training Log: Oculina Imaging & Sampling (Jan 4th)
 
 ### Author: Boaz Abramson
 ### Laboratory: Mass Lab
