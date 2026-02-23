@@ -82,9 +82,14 @@ Become familiarized with established scientific chlorophyll measurement methods 
 8.  **Data:** Save the output spreadsheet and email it to yourself.
 
 ### Calculations
+This formula considers the 200 ul volume in the well. The output of this formula will be chl-a(ug)/ 1 ml, so the output should be multiplied by the initial volume of FSW (e.g. 3 ml) to obtain total chl-a. Once you have total chl-a, you can divide by surface area to obtain chl-a ug/cm^2. 
+
+Remember to subtract the average optical density of the blank (acetone) from the optical density measurements of the samples.
+
 Chlorophyll *a* concentrations were calculated according to the equation of Ritchie (2008):
 
-Chl_a = -0.3319(A630) - 1.7485(A647) + 11.9442(A664) - 1.4306(A691)
+Chl-a = -0.3319(A630) - 1.7485(A647) + 11.9442(A664) - 1.4306(A691)
+
 
 ---
 
@@ -105,16 +110,76 @@ Chl_a = -0.3319(A630) - 1.7485(A647) + 11.9442(A664) - 1.4306(A691)
 5.  Use the linear regression equation to convert foil weight to surface area.
 6.  Now, with both chlorophyll and surface area, you can calculate chlorophyll /area
 
-### Preliminary Results
+#### Surface Area (Foil Method)
+
+| Oculina Sample | Foil Mask Weight (g) | Calculated Surface Area (cm²) |
+| :--- | :---: | :---: |
+| **1** | 0.0383 | 8.212765957 |
+| **4** | 0.0439 | 9.404255319 |
+
+## Preliminary Results
 *Via lab protocols*
 
-| Sample | Avg Chl/cm² |
+### Optical Density Values
+
+| Sample | Row | Well 1 | Well 2 | Well 3 | Wavelength (nm) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Blank (acetone)** | A | 0.111 | 0.109 | 0.108 | 630 |
+| | | 0.106 | 0.104 | 0.104 | 647 |
+| | | 0.102 | 0.100 | 0.099 | 664 |
+| | | 0.095 | 0.092 | 0.092 | 697 |
+| **Sample 1** | B | 0.208 | 0.231 | 0.237 | 630 |
+| | | 0.236 | 0.266 | 0.273 | 647 |
+| | | 0.577 | 0.693 | 0.708 | 664 |
+| | | 0.095 | 0.094 | 0.097 | 697 |
+| **Sample 4** | C | 0.125 | 0.128 | 0.134 | 630 |
+| | | 0.134 | 0.140 | 0.146 | 647 |
+| | | 0.222 | 0.246 | 0.253 | 664 |
+| | | 0.088 | 0.087 | 0.092 | 697 |
+
+####The average blank (acetone) optical density is subtracted from the sample's optical density for each wavelength.
+
+### Calculated Values (Blank Subtracted)
+
+| Sample | Well 1 | Well 2 | Well 3 | Wavelength (nm) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Sample 1** | 0.09866666667 | 0.1216666667 | 0.1276666667 | 630 |
+| | 0.1313333333 | 0.1613333333 | 0.1683333333 | 647 |
+| | 0.4766666667 | 0.5926666667 | 0.6076666667 | 664 |
+| | 0.002 | 0.001 | 0.004 | 697 |
+| **Sample 4** | 0.01566666667 | 0.01866666667 | 0.02466666667 | 630 |
+| | 0.02933333333 | 0.03533333333 | 0.04133333333 | 647 |
+| | 0.1216666667 | 0.1456666667 | 0.1526666667 | 664 |
+| | -0.005 | -0.006 | -0.001 | 697 |
+
+#####In this case, sample four had a negative value at wavelength 967 after blank subtraction. Therefore, sample four is invalid and discarded.
+
+### Chlorophyll-a Concentration (ug/ml) after Ritchie (2008) equation
+
+| Sample | Well 1 | Well 2 | Well 3 |
+| :--- | :---: | :---: | :---: |
+| **Sample 1** | 5.493651933 | 6.835788433 | 7.000411533 |
+
+#####Now, we multiply these values (ug Chl-a/ml) by the quantity of FSW added to obtain total Chl-a ug. In this case, 3 ml of FSW was used for sample 1. Therefore, we multiply by 3.
+
+###Total Chl-a ug
+
+| Sample | Well 1 | Well 2 | Well 3 | Average |
+| :--- | :---: | :---: | :---: | :---: |
+| **Sample 1** | 16.4809558 | 20.5073653 | 21.0012346 |**19.3298519** |
+
+
+##Final Avg Chl-a/cm² Value
+#####Now, with average total Chl-a ug and the surface area, we calculate chl-a/cm².
+
+19.3299 ug Chl-a / 8.21276595 cm² = 2.35 ug Chl/cm²
+
+| Sample | Avg Chl-a/cm² |
 | :--- | :--- |
-| **Blank Acetone** | 0.1118543584 |
-| **Sample 1** | 0.8963992973 |
-| **Sample 4** | 0.2702277867 |
+| **Sample 1** | 2.35 ug |
+
 
 
 ### Author: Boaz Abramson
 ### Laboratory: Mass Lab
-### Last Edited: February 17th 2026
+### Last Edited: February 23rd 2026
