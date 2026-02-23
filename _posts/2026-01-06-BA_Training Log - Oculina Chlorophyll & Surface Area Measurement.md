@@ -137,7 +137,7 @@ Chl-a = -0.3319(A630) - 1.7485(A647) + 11.9442(A664) - 1.4306(A691)
 | | | 0.222 | 0.246 | 0.253 | 664 |
 | | | 0.088 | 0.087 | 0.092 | 697 |
 
-####The average blank (acetone) optical density is subtracted from the sample's optical density for each wavelength.
+#### The average blank (acetone) optical density is subtracted from the sample's optical density for each wavelength.
 
 ### Calculated Values (Blank Subtracted)
 
@@ -152,7 +152,7 @@ Chl-a = -0.3319(A630) - 1.7485(A647) + 11.9442(A664) - 1.4306(A691)
 | | 0.1216666667 | 0.1456666667 | 0.1526666667 | 664 |
 | | -0.005 | -0.006 | -0.001 | 697 |
 
-#####In this case, sample four had a negative value at wavelength 967 after blank subtraction. Therefore, sample four is invalid and discarded.
+##### In this case, sample four had a negative value at wavelength 967 after blank subtraction. Therefore, sample four is invalid and discarded.
 
 ### Chlorophyll-a Concentration (ug/ml) after Ritchie (2008) equation
 
@@ -160,17 +160,17 @@ Chl-a = -0.3319(A630) - 1.7485(A647) + 11.9442(A664) - 1.4306(A691)
 | :--- | :---: | :---: | :---: |
 | **Sample 1** | 5.493651933 | 6.835788433 | 7.000411533 |
 
-#####Now, we multiply these values (ug Chl-a/ml) by the quantity of FSW added to obtain total Chl-a ug. In this case, 3 ml of FSW was used for sample 1. Therefore, we multiply by 3.
+##### Now, we multiply these values (ug Chl-a/ml) by the quantity of FSW added to obtain total Chl-a ug. In this case, 3 ml of FSW was used for sample 1. Therefore, we multiply by 3.
 
-###Total Chl-a ug
+### Total Chl-a ug
 
 | Sample | Well 1 | Well 2 | Well 3 | Average |
 | :--- | :---: | :---: | :---: | :---: |
 | **Sample 1** | 16.4809558 | 20.5073653 | 21.0012346 |**19.3298519** |
 
 
-##Final Avg Chl-a/cm² Value
-#####Now, with average total Chl-a ug and the surface area, we calculate chl-a/cm².
+## Final Avg Chl-a/cm² Value
+##### Now, with the average total Chl-a ug and the surface area, we calculate chl-a/cm².
 
 19.3299 ug Chl-a / 8.21276595 cm² = 2.35 ug Chl/cm²
 
