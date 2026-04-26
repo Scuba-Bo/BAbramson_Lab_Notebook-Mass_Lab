@@ -152,7 +152,7 @@ Chl-a = -0.3319(A630) - 1.7485(A647) + 11.9442(A664) - 1.4306(A691)
 | | 0.1216666667 | 0.1456666667 | 0.1526666667 | 664 |
 | | -0.005 | -0.006 | -0.001 | 697 |
 
-##### In this case, sample four had a negative value at wavelength 967 after blank subtraction. Therefore, sample four is invalid and discarded.
+##### In this case, sample four had a negative value at wavelength 697 after blank subtraction. Therefore, sample four is invalid and discarded.
 
 ### Chlorophyll-a Concentration (ug/ml) after Ritchie (2008) equation
 
