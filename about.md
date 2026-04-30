@@ -8,10 +8,11 @@ permalink: /about/
 **Email:** abramson.boaz@gmail.com 
 
 ## Education
-* **Master of Science (MSc) in Marine Biology**
-  *Mass Lab, University of Haifa, Israel* (Present)
+* **Master of Science (MSc) in Marine Biology (In Progress)**
+  *Mass Lab, University of Haifa, Israel* 
   * Focus: Developing advanced imaging for coral reef physiological health monitoring.
   * Thesis: Developing a non-destructive method to determine chlorophyll concentration in corals using RGB image analysis.
+ 
 * **Bachelor of Science in Marine Science**, Minor in Filmmaking
   *Stony Brook University, New York* (Graduated Fall 2024)
   * GPA: 3.67 | Graduated with Research Honors
@@ -46,9 +47,11 @@ permalink: /about/
 * **President** (Fall 2024), **Vice President & Founder** (Spring 2024) - *Skateboarding University, SBU Skate Club*
 
 ## Certifications
+* **Diving Certifications** - Scientific Diver (AAUS), PADI Rescue Diver (Fall 2023), Two Star Diver (Equivalent to Advanced Open Water Diver).
 * **Cardiopulmonary Resuscitation (CPR)** - National CPR Foundation, 2022
 * **First Aid Certification** - National CPR Foundation, 2022
 * **Automated External Defibrillator (AED) Certification** - National CPR Foundation, 2022
+
 
 ### More Information
 
