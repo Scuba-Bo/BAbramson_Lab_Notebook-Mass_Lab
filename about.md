@@ -14,8 +14,8 @@ permalink: /about/
   * Thesis: Developing a non-destructive method to determine chlorophyll concentration in corals using RGB image analysis.
  
 * **Bachelor of Science in Marine Science**, Minor in Filmmaking
-  *Stony Brook University, New York* (Graduated Fall 2024)
-  * GPA: 3.67 | Graduated with Research Honors
+  *Stony Brook University, New York* (Cum Laude Graduate, Fall 2024)
+  * BSc Research Thesis, Gobler Phytoplankton Ecology Laboratory: Utilizing the Imaging-FlowCytoBot to Assess the Mixotrophic Dynamics of *Dinophysis*
 
 ## Technical & Professional Skills
 * **Programming & Data Analysis:** MATLAB, R, SPSS, GitHub.
