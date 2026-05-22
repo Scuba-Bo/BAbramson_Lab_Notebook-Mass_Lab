@@ -11,10 +11,10 @@ tags: Aquarium, Water Change, Maintenance
 ### Overall Structure
 Each tank system has three aquariums with a singular sump system filtering the water for all three. As such, each triplicate system is in reality one tank, which should be considered when designing an experiment. The systems are numbered clockwise from 1-12, with tanks 1-6 being on the left, and 7-12 on the right.
 
-![Figure 1: Annotated aquarium photo](../images/Water Change Images/1.jpg)  
+![Figure 1: Annotated aquarium photo](../images/Water Change Images/1.JPGJPG)  
 *Figure 1: Annotated aquarium photo.*
 
-![Figure 2: Sump system overview](../images/Water Change Images/2.jpg)  
+![Figure 2: Sump system overview](../images/Water Change Images/2.JPG)  
 *Figure 2: Sump system overview.*
 
 ### Pre-Water Change: Parameter Testing
@@ -37,18 +37,18 @@ While testing each parameter, record it in a table like this:
 #### Step 1: Turn off the pump
 Turn off the aquarium sump pump by flipping the red switch <u>underneath</u> the system.
 
-![Figure 3: Red switch underneath the system](../images/Water Change Images/3.jpg)  
-*Figure 3: Red switch underneath the system.*
+![Figure 3: Red switch underneath the system](../images/Water Change Images/3.JPG)  
+*Figure 3: Red switch underneath the system turns off the sump pump.*
 
 If you are reducing water levels below additional pumps added to the aquarium for flow, you should turn the pumps off as well. Turning off additionally pumps will make it easier for debris to settle when vacuuming water out of the tank.
 
 #### Step 2: Glass Cleaning
 Use the scraper and/or a sponge to clean debris off the sides and bottom of the tank. As you move from one tank to another, this allows the debris to settle on the bottom of the aquarium instead of floating in the water, which makes it easier to remove with the vacuum later.
 
-![Figure 4: Sponge cleaning](../images/Water Change Images/4.jpg)  
+![Figure 4: Sponge cleaning](../images/Water Change Images/4.JPG)  
 *Figure 4: Sponge cleaning.*
 
-![Figure 5: Scraper cleaning](../images/Water Change Images/5.jpg)  
+![Figure 5: Scraper cleaning](../images/Water Change Images/5.JPG)  
 *Figure 5: Scraper cleaning.*
 
 At this stage, rotate or replace the mesh located on the upper level of the sump system.
@@ -56,16 +56,16 @@ At this stage, rotate or replace the mesh located on the upper level of the sump
 #### Step 3: Protein Breaker Maintenance
 Remove the protein breaker head by unscrewing it counterclockwise from the sump system. It was difficult to remove, check for salt build up in threads and remove. Clean the protein breaker head in the sink using ideally DDW water and a sponge. <u>DO NOT USE SOAP.</u>
 
-![Figure 6: Removing the protein breaker head](../images/Water Change Images/6.jpg)  
+![Figure 6: Removing the protein breaker head](../images/Water Change Images/6.JPG)  
 *Figure 6: Removing the protein breaker head.*
 
-![Figure 7: Cleaning process](../images/Water Change Images/7.jpg)  
+![Figure 7: Cleaning process](../images/Water Change Images/7.JPG)  
 *Figure 7: Cleaning process.*
 
-![Figure 8: Sponging the components](../images/Water Change Images/8.jpg)  
+![Figure 8: Sponging the components](../images/Water Change Images/8.JPG)  
 *Figure 8: Sponging the components.*
 
-![Figure 9: Cleaned protein breaker](../images/Water Change Images/9.jpg)  
+![Figure 9: Cleaned protein breaker](../images/Water Change Images/9.JPG)  
 *Figure 9: Cleaned protein breaker.*
 
 Return the protein breaker head to the system by screwing it clockwise. When functioning correctly, there should be bubbles rising to about halfway up the protein breaker head (with the sump pump turned on, check after the water change). Additionally, there is a small soft air intake at the bottom of the protein breaker head which can occasionally become clogged with salt. A small squeeze and a squirt of DDW water will fix this issue.
@@ -73,17 +73,17 @@ Return the protein breaker head to the system by screwing it clockwise. When fun
 #### Step 4: Water Removal
 Take the saltwater tube from the sink area.
 
-![Figure 10: Saltwater tube](../images/Water Change Images/10.jpg)  
+![Figure 10: Saltwater tube](../images/Water Change Images/10.JPG)  
 *Figure 10: Saltwater tube.*
 
 **Important:** Insert one end of the tube at least half a meter into the drainage hole to ensure the tube does not become removed from the drain while water is running through it, which can cause a flood.
 
-![Figure 11: Drain with tube secured in it](../images/Water Change Images/11.jpg)  
+![Figure 11: Drain with tube secured in it](../images/Water Change Images/11.JPG)  
 *Figure 11: Drain with tube secured in it.*
 
 To perform an ~20% water change in a system, vacuum water from the overflow level to the bottom of the overflow container.
 
-![Figure 12: Water change levels](../images/Water Change Images/12.jpg)  
+![Figure 12: Water change levels](../images/Water Change Images/12.JPG)  
 *Figure 12: Water change levels.*
 
 To start the vacuum of water, there are two methods. One method is to briefly turn on the sump and use the flow from the pump in the tank to start the vacuum before turning off the sump. Another method is to begin the vacuum by breathing in the air from the exit side of the tube until the flow begins and quickly return the tube to the drain securely.
@@ -94,24 +94,24 @@ Once water is being vacuumed out of the aquarium, remove the debris on the floor
 #### Step 5: Water Addition
 Check the salinity of the aquarium and the saltwater reservoir barrel with the WTW salinity probe (black probe is salinity, the blue is for pH). It's important to do this before adding water to your aquarium from the reservoir barrel.
 
-![Figure 13: Salinity check with WTW probe](../images/Water Change Images/13.jpg)  
+![Figure 13: Salinity check with WTW probe](../images/Water Change Images/13.JPG)  
 *Figure 13: Salinity check with WTW probe.*
 
 *Note:* In general, the tanks in the aquarium room are kept around 39-40 PPM. If the reservoir barrel salinity is too low, you can add salt to increase salinity. If the reservoir barrel's salinity is too high, adding DDW water will reduce the salinity, but make sure to use the freshwater tube.
 
 Once the salinity of the reservoir is the correct level, connect the saltwater tube to the barbed tube located on the top of the barrel.
 
-![Figure 14: Connecting tube to the barbed connector](../images/Water Change Images/14.jpg)  
+![Figure 14: Connecting tube to the barbed connector](../images/Water Change Images/14.JPG)  
 *Figure 14: Connecting tube to the barbed connector.*
 
 Notice that there are two valves on the top of the barrel. The one on the left connects to a pump that mixes the water, while the pump on the right is responsible for pumping water out of the barrel. When the valve is parallel to the tube, the flow is open, and when the valve is perpendicular to the tube, it is closed.
 
 To begin the flow of water through the tube, turn the water mixer valve off and the water pump on. Make sure to connect the saltwater tube to the barbed connecter before turning on the flow to avoid water spraying out of the connecter.
 
-![Figure 15: Adjusting the water mixer valve](../images/Water Change Images/15.jpg)  
+![Figure 15: Adjusting the water mixer valve](../images/Water Change Images/15.JPG)  
 *Figure 15: Adjusting the water mixer valve.*
 
-![Figure 16: Turning the water pump on](../images/Water Change Images/16.jpg)  
+![Figure 16: Turning the water pump on](../images/Water Change Images/16.JPG)  
 *Figure 16: Turning the water pump on.*
 
 Fill the tanks until they reach the overflow level in each tank, then turn off the flow from the water pump valve in the barrel.
@@ -119,15 +119,15 @@ Fill the tanks until they reach the overflow level in each tank, then turn off t
 #### Step 6: Reservoir Barrel Replenishment
 Once you have finished adding water to your tanks from the reservoir, it is important to refill the reservoir. Take the freshwater tube from on top of the DDW reservoir. Using both hands, gently connect the tube to the barbed connector of the DDW tank (the connector is a bit fragile).
 
-![Figure 17: DDW barbed connector](../images/Water Change Images/17.jpg)  
+![Figure 17: DDW barbed connector](../images/Water Change Images/17.JPG)  
 *Figure 17: DDW barbed connector.*
 
-![Figure 18: Attaching the tube](../images/Water Change Images/18.jpg)  
+![Figure 18: Attaching the tube](../images/Water Change Images/18.JPG)  
 *Figure 18: Attaching the tube.*
 
 Then connect the other end of the tube to the barbed connector of the saltwater reservoir barrel. **IMPORTANT:** Before refilling, turn off the pump in the reservoir barrel by flipping the left switch on the wall.
 
-![Figure 19: Wall switch for the reservoir pump](../images/Water Change Images/19.jpg)  
+![Figure 19: Wall switch for the reservoir pump](../images/Water Change Images/19.JPG)  
 *Figure 19: Wall switch for the reservoir pump.*
 
 Turn both valves to be open in the barrel, then turn the DDW barrel valve to be open and allow flow. Fill the reservoir barrel until the water level reaches the grey tubes at the top of the barrel. Once the saltwater barrel has been filled, turn the valve on the DDW reservoir to the closed position and allow the rest of the water to flow into the saltwater barrel.
