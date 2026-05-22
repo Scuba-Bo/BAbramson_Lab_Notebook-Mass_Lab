@@ -9,13 +9,14 @@ tags: Aquarium, Water Change, Maintenance
 ### Overall Structure
 Each tank system has three aquariums with a singular sump system filtering the water for all three. As such, each triplicate system is in reality one tank, which should be considered when designing an experiment. The systems are numbered clockwise from 1-12, with tanks 1-6 being on the left, and 7-12 on the right.
 
-<img src="../images/Water Change Images/1.JPG" alt="Figure 1: Annotated aquarium photo" width="50%">
+<img src="../images/Water Change Images/1.JPG" alt="Figure 1: Annotated aquarium photo" width="75%">
+
 *Figure 1: Annotated aquarium photo.*
 
-<img src="../images/Water Change Images/1.JPG" alt="Figure 1: Annotated aquarium photo" width="50%">
-*Figure 1: Annotated aquarium photo.*
 
-<img src="../images/Water Change Images/2.JPG" alt="Figure 2: Sump system overview" width="50%">
+
+<img src="../images/Water Change Images/2.JPG" alt="Figure 2: Sump system overview" width="75%">
+
 *Figure 2: Sump system overview.*
 
 ### Pre-Water Change: Parameter Testing
