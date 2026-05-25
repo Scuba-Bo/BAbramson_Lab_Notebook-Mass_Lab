@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # Boaz Abramson
-**Email:** [abramson.boaz@gmail.com](abramson.boaz@gmail.com )
+**Email:** [abramson.boaz@gmail.com](abramson.boaz@gmail.com)
 
 ## Education
 * **Master of Science (MSc) in Marine Biology (In Progress)**
