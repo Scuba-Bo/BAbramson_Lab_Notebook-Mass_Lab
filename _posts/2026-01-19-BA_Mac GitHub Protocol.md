@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Protocol: Connecting a Mac Computer to GitHub via Terminal (SSH Method)"
+title: "Protocol: Connecting a Mac Computer to GitHub via Terminal (SSH Method) and Publishing Posts"
 date: '2025-12-14'
 categories: Protocols
 tags: Mac,GitHub,Network
@@ -9,6 +9,8 @@ tags: Mac,GitHub,Network
 
 ### Purpose:
 This protocol provides a step-by-step guide for setting up and using Git on a Mac to connect to GitHub using SSH. It is designed for lab members who need to track and share their research code, analysis, and documentation on GitHub without relying on the GitHub Desktop application. With this method, you can communicate with Github via Mac's terminal.
+
+## Setting up the connection for the first time
 
 ### 1. Prerequisites
 1. You have a GitHub account.
@@ -51,14 +53,15 @@ This protocol provides a step-by-step guide for setting up and using Git on a Ma
 1. Run: `ssh -T git@github.com`
 2. If successful, you’ll see: ‘Hi [YourGitHubUsername]! You’ve successfully authenticated, but GitHub does not provide shell access.’
 
+## Publishing a Post
 ### 8. Link a Local Folder to a GitHub Repository
-1. Navigate to your project folder: `cd /Users/Boaz/Documents/GitHub/BAbramson_Lab_Notebook-Mass_Lab`
+1. Navigate to your project folder. I recommend creating a reference document to copy and paste from for your specific pathways. Tip: when right clicking on a folder, click option to be able to copy the pathname. Here's an  example with my pathways: `cd /Users/Boaz/Documents/GitHub/BAbramson_Lab_Notebook-Mass_Lab`
 2. Initialize Git: `git init`
 3. Connect to your GitHub repo: `git remote add origin git@github.com:Scuba-Bo/BAbramson_Lab_Notebook-Mass_Lab.git`
-4. Verify: `git remote -v`
+4. Optionally verify: `git remote -v`
 
 ### 9. Upload Files to GitHub
-1. If folder is empty, create a README file: `echo '# BAbramson Lab Notebook' > README.md`
+1. If the folder is empty, create a README file: `echo '# BAbramson Lab Notebook' > README.md`
 2. Stage files: `git add .`
 3. Commit files: `git commit -m 'Initial commit - add project files'`
 4. Push to GitHub: 
@@ -72,4 +75,4 @@ This protocol provides a step-by-step guide for setting up and using Git on a Ma
 
 ### Author: Boaz Abramson
 ### Laboratory: Mass Lab
-### Last Edited: May 22nd 2026
+### Last Edited: May 25th 2026
