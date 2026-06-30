@@ -49,22 +49,22 @@ In total, 12 light-acclimated and 8 dark-acclimated samples were analyzed. The a
 
 At each irradiance step, the software recorded the steady-state fluorescence (F), maximum fluorescence (Fm), minimum fluorescence (F0), effective quantum yield (Y(II)), non-photochemical quenching yield (Y(NPQ)), and electron transport rate (ETR) for each sample. Following the data collection, the ETR values were exported and analyzed using R. All statistical analyses and data visualizations were performed in R (v. 4.6.0) utilizing the `ggplot2` (v. 4.0.3), `dplyr` (v. 1.2.1), `tidyr` (v. 1.3.2), `purrr` (v. 1.2.2), `broom` (v. 1.0.13), `patchwork` (v. 1.3.2), `lubridate` (v. 1.9.5), and `hms` (v.1.1.4) packages. A non-linear least squares regression was applied to fit photosynthetic irradiance (PI) curves, which allowed the calculation and extraction of four key photophysiological parameters: the asymptotic maximum photosynthetic rate (Am), the initial curve slope (AQY), dark respiration (Rd), and the minimum saturating irradiance (Ik).
 
-<img src="/images/Photophysiology/F1.png" alt="Figure 1: Algae identification guide references">
+<img src="../images/Photophysiology/F1.png" alt="Figure 1: Algae identification guide references">
 *Figure 1: Algae identification guide references.*
 
-<img src="/images/Photophysiology/F2.png" alt="Figure 2: Algae identification guide references">
+<img src="../images/Photophysiology/F2.png" alt="Figure 2: Algae identification guide references">
 *Figure 2: Algae identification guide references.*
 
-<img src="/images/Photophysiology/F3.png" alt="Figure 3: Light acclimated algae specimens on petri dish">
+<img src="../images/Photophysiology/F3.png" alt="Figure 3: Light acclimated algae specimens on petri dish">
 *Figure 3: Light acclimated algae specimens on the Petri dish.*
 
-<img src="/images/Photophysiology/F4.png" alt="Figure 4: Dark acclimated algae on a petri dish">
+<img src="../images/Photophysiology/F4.png" alt="Figure 4: Dark acclimated algae on a petri dish">
 *Figure 4: Dark acclimated algae on the Petri dish.*
 
-<img src="/images/Photophysiology/F5.png" alt="Figure 5: PAM visual for the light acclimated algae">
+<img src="../images/Photophysiology/F5.png" alt="Figure 5: PAM visual for the light acclimated algae">
 *Figure 5: PAM visual for the light acclimated algae.*
 
-<img src="/images/Photophysiology/F6.png" alt="Figure 6: PAM visual for the dark acclimated algae">
+<img src="../images/Photophysiology/F6.png" alt="Figure 6: PAM visual for the dark acclimated algae">
 *Figure 6: PAM visual for the dark acclimated algae.*
 
 ---
@@ -79,13 +79,13 @@ Overall, high-light (HL) acclimated algae demonstrated a mean maximum photosynth
 ### Statistical Comparisons 
 To determine if habitat light exposure significantly affected photophysiological parameters across taxa, paired Wilcoxon tests were conducted on species present in both HL and LL groups. The analysis revealed a non-significant difference in Am between the two groups (p = 0.297). Similarly, differences in AQY were non-significant (p = 0.109), alongside Ik (p = 0.109) and Rd (p = 0.219). Because the genus *Colpomenia* exhibited distinct variance, a secondary Wilcoxon test excluding this taxon was performed; however, this exclusion did not yield any statistically significant differences (Am: p = 0.156; AQY: p = 0.219; Ik: p = 0.094; Rd: p = 0.156).
 
-<img src="/images/Photophysiology/F7.png" alt="Figure 7: Photosynthesis irradiance curves">
+<img src="../images/Photophysiology/F7.png" alt="Figure 7: Photosynthesis irradiance curves">
 *Figure 7: Photosynthesis irradiance curves of the light-acclimated algae samples (left) and the dark-acclimated algae samples (right).*
 
-<img src="/images/Photophysiology/F8.png" alt="Figure 8: Boxplots">
+<img src="../images/Photophysiology/F8.png" alt="Figure 8: Boxplots">
 *Figure 8: Boxplots of Am, AQY, Ik, and Rd for the dark-acclimated and light acclimated algae samples. (Top-left = Asymptotic maximum (AM), top-right = Apparent quantum yield (AQY), bottom-left = Saturation Irradiance (Ik), bottom-right = Dark Respiration (Rd)).*
 
-<img src="/images/Photophysiology/F9.png" alt="Figure 9: Differences between measurements">
+<img src="../images/Photophysiology/F9.png" alt="Figure 9: Differences between measurements">
 *Figure 9: Differences between photophysiological parameter measurements for 6 algae genera that were collected from both the light-acclimated habitat and the dark-acclimated habitat.*
 
 ---
