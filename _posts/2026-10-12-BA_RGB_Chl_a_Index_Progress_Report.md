@@ -1,21 +1,21 @@
 ---
 layout: post
 title: "RGB Chl-a Index Progress Report"
-date: '2026-09-01'
+date: '2026-10-12'
 categories: Lab Notebook
 tags: Coral Bleaching, Chl-a Index, RGB, Image Processing, Progress Report
 ---
 
 * Boaz Abramson - University of Haifa - Mass Lab & Color Lab
 * **Supervisors:** Prof. Tali Mass & Prof. Derya Akkaynak
-* **Date:** 1/9/26
+* **Date:** 12/10/26
 
 ### Current Status
-Out of 89 experimental coral nubs, 25 have been fully processed for Chl-a density (µg/cm²) and RGB values (8 *Stylophora* nubs, 10 *Pocillopora*, and 7 *Acropora*). 10 nubs have been imaged and frozen, but have not been processed for Chl-a. Over the past three weeks, the tank temperature has been elevated from 24°C to 30°C. Tank temperature will continue to rise over the next month, and as nubs show signs of bleaching, they will be imaged, frozen, and processed to complete the RGB/Chl-a index reference data. Currently, the *Acropora* data lacks medium bleached & severely bleached data points, the *Pocillopora* data lacks medium bleached data points, and the *Stylophora* lacks severely bleached data points (Fig. 1).
+All 87 coral nubs have been fully processed for Chl-a density (µg/cm²) and RGB values (28 *Stylophora* nubs, 27 *Pocillopora*, and 32 *Acropora*). Over three months, the tank temperature was elevated from 24°C to 32°C. As coral nubs showed signs of bleaching, they were imaged, frozen, and processed to complete the RGB/Chl-a index reference data. The first component of the MSc research project, the lab controlled RGB/Chl-a index data collection, is complete. 
 
 <br>
 
-<img src="../images/RGB_Chl_a_Index_Progress_Report/F1.png" alt="Figure 1: 16-bit RGB intensity distributions for the Acropora, Pocillopora, and Stylophora nubs." width="100%">
+<img src="../images/RGB_Chl_a_Index_Progress_Report/Updated_F1.png" alt="Figure 1: 16-bit RGB intensity distributions for the Acropora, Pocillopora, and Stylophora nubs." width="100%">
 
 *Figure 1: 16-bit RGB intensity distributions for the Acropora, Pocillopora, and Stylophora nubs. Higher pixel intensities indicate a brighter color (more bleached).*
 
@@ -23,20 +23,19 @@ Out of 89 experimental coral nubs, 25 have been fully processed for Chl-a densit
 
 ### Preliminary Results
 * Following RGB and Chl-a extraction for each coral nub, the values were tested for correlation strength across 22 index options (19 based on RGB, 3 from RGB converted to CIELAB) and visualized using a modified R script from Ferrara et al., 2026 (Fig. 2).
-* Notably, the R² values presented here (Fig. 2) for *Pocillopora* (R² = 0.91, p < 0.001) and *Stylophora* (R² = 0.89, p < 0.001) are stronger than the values obtained for the long-term heat stress bleaching experiment conducted by Ferrara et al., 2026, which follows a similar experimental protocol but used non-linear .png images for RGB extraction (Fig. S7).
+* Notably, all R² values presented here (Fig. 2) for *Acropora* (R² = 0.95, p < 0.001), *Pocillopora* (R² = 0.94, p < 0.001), and *Stylophora* (R² = 0.88, p < 0.001)  are stronger than the values obtained for the long-term heat stress bleaching experiment conducted by Ferrara et al., 2026, which follows a similar experimental protocol but used non-linear .png images for RGB extraction (Fig. S7).
 
 <br>
 
-<img src="../images/RGB_Chl_a_Index_Progress_Report/F2.png" alt="Figure 2: Correlation strength between chlorophyll-a density and 22 color indices." width="100%">
+<img src="../images/RGB_Chl_a_Index_Progress_Report/Updated_F2.png" alt="Figure 2: Correlation strength between chlorophyll-a density and 22 color indices." width="100%">
 
 *Figure 2: Correlation strength (R²) between chlorophyll-a density and 22 color indices (19 RGB-derived & 3 converted to CIELAB). Thick borders indicate the top three indices. Darker green indicates a stronger correlation. Further details regarding specific indices can be found in Supplementary Table 1. Visualization performed with modified R code from Ferrara et al., 2026.*
 
 ---
 
 ### Discussion/Questions
-* The preliminary results presented here are promising and in some cases outcompete similar published experiments. Collecting the data from the remaining coral nubs will likely increase the strength of the correlations, especially with the *Acropora*.
-* While Chl-a here was calculated using the wavelengths 630, 663, and 750 nm, some studies also utilize the wavelength 647 to remove overlap between Chl-a and Chl-C₂. The 647 wavelength was unfortunately not collected for all samples. If necessary, the remaining coral tissue in the freezer can be used to re-run the samples that lack the 647 wavelength data. Is this a worthwhile endeavor, or is the simple version of the Jeffrey & Humphrey 1975 equation with the 630, 663, and 750 nm wavelengths sufficient?
-* When the coral nubs extend their polyps, the light shining on them leads to a "glint" on the rounded edges of the polyps (Fig. S6). Currently, these "glints" have been included in the averaged RGB data across the collected samples. Is it worthwhile to remove these "glints" from the index data, and if so, is there an efficient way to remove these glints?
+* The preliminary results presented here are promising and outcompete similar published experiments. This improvement can be attributed to the RAW image processing steps taken to maintain image linearity and color consistency.
+* When the coral nubs extend their polyps, the light shining on them leads to a "glint" on the rounded edges of the polyps (Fig. S6). Currently, these "glints" have been included in the averaged RGB data across the collected samples. Increased pricision with image segmentation may further improve the results.
 
 ---
 
