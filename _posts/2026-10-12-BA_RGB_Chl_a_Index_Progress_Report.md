@@ -22,18 +22,19 @@ All 87 coral nubs have been fully processed for Chl-a density (µg/cm²) and RGB
 ---
 
 ### Preliminary Results
-* Following RGB and Chl-a extraction for each coral nub, the values were tested for correlation strength across 22 index options (19 based on RGB, 3 from RGB converted to CIELAB) and visualized using a modified R script from Ferrara et al., 2026 (Fig. 2).
+* Following RGB and Chl-a extraction for each coral nub, the values were tested for correlation strength across 22 index options (19 based on RGB, 3 from RGB converted to CIELAB) and visualized using a modified R script from Ferrara et al., 2026 (Fig. 2). 
+* Initial data filtering based on cook's distance improved results across all three genera.
 * Notably, all R² values presented here (Fig. 2) for *Acropora* (R² = 0.95, p < 0.001), *Pocillopora* (R² = 0.94, p < 0.001), and *Stylophora* (R² = 0.88, p < 0.001)  are stronger than the values obtained for the long-term heat stress bleaching experiment conducted by Ferrara et al., 2026, which follows a similar experimental protocol but used non-linear .png images for RGB extraction (Fig. S7).
 
 <br>
 
 <img src="../images/RGB_Chl_a_Index_Progress_Report/Updated_F2.png" alt="Figure 2: Correlation strength between chlorophyll-a density and 22 color indices." width="100%">
 
-*Figure 2: Correlation strength (R²) between chlorophyll-a density and 22 color indices (19 RGB-derived & 3 converted to CIELAB). Thick borders indicate the top three indices. Darker green indicates a stronger correlation. Further details regarding specific indices can be found in Supplementary Table 1. Visualization performed with modified R code from Ferrara et al., 2026.*
+*Figure 2: Correlation strength (R²) between chlorophyll-a density and 22 color indices (19 RGB-derived & 3 converted to CIELAB). Each genus includes two columns, one with all data included (Raw), and another with preliminary cook's distance data filtering. Thick borders indicate the top three indices. Darker green indicates a stronger correlation. Further details regarding specific indices can be found in Supplementary Table 1. Visualization performed with modified R code from Ferrara et al., 2026.*
 
 ---
 
-### Discussion/Questions
+### Discussion
 * The preliminary results presented here are promising and outcompete similar published experiments. This improvement can be attributed to the RAW image processing steps taken to maintain image linearity and color consistency.
 * When the coral nubs extend their polyps, the light shining on them leads to a "glint" on the rounded edges of the polyps (Fig. S6). Currently, these "glints" have been included in the averaged RGB data across the collected samples. Increased pricision with image segmentation may further improve the results.
 
