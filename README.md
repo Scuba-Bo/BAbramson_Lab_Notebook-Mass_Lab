@@ -1,4 +1,4 @@
-Boaz Abramson's MSc Research in the Mass Lab
+Boaz Abramson's MSc Research in the Mass Lab and the COLOR Lab.
 
 <img src="/images/Oculina_ColorChart.JPG" alt="Oculina patagonica alongside a color chart">
 
