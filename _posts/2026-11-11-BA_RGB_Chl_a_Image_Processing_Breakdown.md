@@ -36,31 +36,31 @@ tags: Image Processing, Color Calibration, Segmentation, MATLAB, RGB, Chlorophyl
 #### 2.2 White Balancing
 * Executed before deriving the color matrix via:
   
-  $I_{\text{wb}} = \text{whiteBalance}(I, \text{whiteMask}, \text{blackMask}, 0.8)$
+  `Iwb = whiteBalance(I, whiteMask, blackMask, 0.8)`
 
-* $11 \times 11$ pixel bounding boxes (121 pixels total) are generated on Patch 1 (Black, `blackMask`) and Patch 6 (White, `whiteMask`). The RGB values from these patches are averaged.
-* For each RGB channel, the mean of the black patch is subtracted across the entire image. Remaining intensities are linearly scaled so the white patch mean equals $0.8$ (80% reflectance). This is done to avoid highlight clipping, but may need to be adjusted even further.
+* 11x11 pixel bounding boxes (121 pixels total) are generated on Patch 1 (Black, `blackMask`) and Patch 6 (White, `whiteMask`). The RGB values from these patches are averaged.
+* For each RGB channel, the mean of the black patch is subtracted across the entire image. Remaining intensities are linearly scaled so the white patch mean equals 0.8 (80% reflectance). This is done to avoid highlight clipping, but may need to be adjusted even further.
 
 #### 2.3 RGB Extraction
-* The script samples $11 \times 11$ pixel arrays (`patchPixels`) from the centers of all 18 patches on the white-balanced image ($I_{\text{wb}}$).
-* Calculates the mean R, G, and B values for each patch to populate an $18 \times 3$ matrix (`RGB_extracted`).
-* Because `RGB_extracted` extracts sequentially as 6 rows $\times$ 3 columns but the `DGKColorChart.mat` reference XYZ data is ordered as $3 \times 6$, the data is re-indexed using a permutation vector:
+* The script samples 11x11 pixel arrays (`patchPixels`) from the centers of all 18 patches on the white-balanced image (`Iwb`).
+* Calculates the mean R, G, and B values for each patch to populate an 18x3 matrix (`RGB_extracted`).
+* Because `RGB_extracted` extracts sequentially as 6 rows x 3 columns but the `DGKColorChart.mat` reference XYZ data is ordered as 3x6, the data is re-indexed using a permutation vector:
   
   `patch_mapping = [6, 5, 4, 3, 2, 1, 12, 11, 10, 9, 8, 7, 18, 17, 16, 15, 14, 13]`
   
   This aligns the camera RGB rows 1:1 with the reference XYZ rows as `RGB_mapped`.
 
-#### 2.4 Linear Color Transformation Matrix ($T$) Derivation
+#### 2.4 Linear Color Transformation Matrix (T) Derivation
 * With 18 patches on the color chart, the system is overdetermined and it is necessary to implement an ordinary least squares (OLS) regression to find the line of best fit.
-* The script computes the $3 \times 3$ linear color transformation matrix $T$ mapping white-balanced camera RGB to CIE 1931 XYZ using the Moore-Penrose pseudoinverse (`pinv`), solving the overdetermined 18-patch system via ordinary least squares:
+* The script computes the 3x3 linear color transformation matrix `T` mapping white-balanced camera RGB to CIE 1931 XYZ using the Moore-Penrose pseudoinverse (`pinv`), solving the overdetermined 18-patch system via ordinary least squares:
 
-$$T = \text{XYZ}' \cdot \text{pinv}(\text{RGB\_mapped})'$$
+  `T = XYZ' * pinv(RGB_mapped)'`
 
-* The script reshapes $I_{\text{wb}}$ into a 2D pixel list of dimensions $(\text{imgH} \cdot \text{imgW}) \times 3$, applies the linear transformation $T$, and reshapes the output back into a 3D image array $I_{\text{xyz}}$ ($\text{imgH} \times \text{imgW} \times 3$).
+* The script reshapes `Iwb` into a 2D pixel list of dimensions `(imgH * imgW) x 3`, applies the linear transformation `T`, and reshapes the output back into a 3D image array `Ixyz` (`imgH x imgW x 3`).
 
 #### 2.5 ProPhoto RGB Conversion
-* The script passes $I_{\text{xyz}}$ into `XYZ2ProPhoto(Ixyz)` to transform the image from CIE XYZ into the ProPhoto RGB space ($I_{\text{rgb}}$).
-* Values are clamped (values $< 0$ set to $0$; values $> 1$ set to $1$).
+* The script passes `Ixyz` into `XYZ2ProPhoto(Ixyz)` to transform the image from CIE XYZ into the ProPhoto RGB space (`Irgb`).
+* Values are clamped (values `< 0` set to `0`; values `> 1` set to `1`).
 * Finally, it exports the calibrated image as a TIFF (`Transformed_<imgName>`) into the `Color_Transformed_Images` directory within the original TIFF folder.
 
 ---
@@ -95,14 +95,14 @@ The operator validates or refines the segmentation using eight keyboard controls
 | `[ENTER]` | Accept | Commits mask, updates saved data, and advances to next image. |
 | `[b]` / `[n]` | Back / Skip | Go back one image or skip ahead to the next unmasked image. |
 | `[r]` | Redraw ROI | Opens full image to draw a new bounding box ROI. |
-| `[t]` | Change & Lock Threshold | Prompts operator to select new threshold ($0 - 1.0$), locked for subsequent images until changed. |
+| `[t]` | Change & Lock Threshold | Prompts operator to select new threshold (0 - 1.0), locked for subsequent images until changed. |
 | `[e]` / `[a]` | Erase / Add | Activates interactive freehand polygon tool for manual pixel erasure (red) or addition (green). |
 | `[q]` | Quit & Save | Saves work to checkpoint file and exits gracefully. |
 
 #### 3.5 Coral Tissue RGB Averaging & Export
 * After accepting a mask, the script calculates the mean R, G, and B channel values of each individual image and saves them to `<EXT>_checkpoint.mat` before advancing to the next image.
 * Upon finishing the session, the script calculates the average RGB, standard deviation, and coefficient of variation across the four images of each nub.
-* If the coefficient of variation exceeds $10\%$, it is flagged for **"High Variance"**.
+* If the coefficient of variation exceeds 10%, it is flagged for **"High Variance"**.
 * All values are exported in a time-stamped `.csv` file to the export folder. The `.csv` file also indicates whether the input files were `JPG`, `RAW`, or `CAL` (calibrated TIFF).
 
 ---
@@ -111,7 +111,7 @@ The operator validates or refines the segmentation using eight keyboard controls
 
 Key pipeline improvements planned for future versions:
 
-1. **Full Patch Sampling:** Currently, the script samples $11 \times 11$ pixels (121 pixels) per patch. Future iterations will sample each color patch across its full surface area.
+1. **Full Patch Sampling:** Currently, the script samples 11x11 pixels (121 pixels) per patch. Future iterations will sample each color patch across its full surface area.
 2. **Segment Anything Implementation:** Transitioning from Otsu binarization and manual polygon edits to a Segment Anything Model (SAM) approach to enhance segmentation consistency.
 3. **Integrated Sanity Checks:** Incorporating comprehensive automated quality control and validation sanity checks directly into the processing pipeline.
 
@@ -121,9 +121,7 @@ Key pipeline improvements planned for future versions:
 * **Foundational Paper & COTS Demo Code:**
   Akkaynak, D., Treibitz, T., Shron, B., & Gurfil, P. (2014). *Use of commercial off-the-shelf (COTS) digital cameras for scientific data acquisition and scene-specific color calibration*. Journal of the Optical Society of America A, Vol. 31, No. 2, February 2014.
 
-
 #### Pipeline MATLAB Scripts
 * [`DNG2Tiff.m`](../Files/Image_Processing_Breakdown/DNG2Tiff.m) – Converts linear demesaiced DNG files to 16-bit TIF format.
-* [`Master_V6_2_FixedVisual.m`](../Files/Image_Processing_Breakdown/Master_V6_2_FixedVisual.m) – Performs semi-automatic patch selection, white balancing, RGB extraction, linear color matrix derivation ($T$), and ProPhoto RGB conversion.
+* [`Master_V6_2_FixedVisual.m`](../Files/Image_Processing_Breakdown/Master_V6_2_FixedVisual.m) – Performs semi-automatic patch selection, white balancing, RGB extraction, linear color matrix derivation (`T`), and ProPhoto RGB conversion.
 * [`Basic_Segmentation_V6.m`](../Files/Image_Processing_Breakdown/Basic_Segmentation_V6.m) – Semi-automated segmentation checkpointing, Otsu thresholding, interactive keyboard mask editing, and tissue RGB extraction.
-
