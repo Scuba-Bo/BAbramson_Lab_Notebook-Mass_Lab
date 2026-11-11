@@ -9,6 +9,7 @@ tags: Image Processing, Color Calibration, Segmentation, MATLAB, RGB, Chlorophyl
 * Boaz Abramson - University of Haifa - Mass Lab & Color Lab
 * **Supervisors:** Prof. Tali Mass & Prof. Derya Akkaynak
 * **Date:** 11/11/26
+* **Video Demo:** [Watch the Image Processing Workflow Demo](https://drive.google.com/file/d/1vFeube3cS6c31TbDRYd6V_j2FxZEKJp1/view?usp=drive_link)
 
 ## RGB/Chl-a Image Processing Breakdown
 
